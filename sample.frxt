@@ -1,0 +1,29 @@
+/*
+ * the main entrypoint
+ * */
+func main() {
+	int x = 20;
+	float y = 2.3;
+
+	float z = sum(x, y);
+
+	print(z);
+}
+
+/*
+ * @x:float first number
+ * @y:float second number
+ * returns the sum of these numbers
+ * */
+func sum(float x, float y) {
+	return x+y;
+}
+
+/*
+ * @x:float first number
+ * @y:float second number
+ * returns the sum of these numbers
+ * */
+func sub = (float x, float y) {
+	return x-y;
+}
